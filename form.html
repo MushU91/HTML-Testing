@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="icon" type="image/x-icon" href="./book1.jpg" />
+  </head>
+  <body>
+    <form action="" target="_self" method="get">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="fname">First name:</label><br />
+        <input type="text" id="fname" name="fname" /><br />
+        <label for="lname">Last name:</label><br />
+        <input type="text" id="lname" name="lname" />
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+    <br />
+    <form action="" target="_self" method="get">
+      <input type="radio" name="html" id="html" value="html" />
+      <label for="html">HTML</label>
+      <input type="radio" name="css" id="css" value="css" />
+      <label for="css">CSS</label>
+      <input type="radio" name="js" id="js" value="js" />
+      <label for="js">JavaScript</label>
+    </form>
+    <br />
+    <form action="">
+      <input type="checkbox" name="bike" id="bike" value="bike" />
+      <label for="bike">BIKE</label>
+      <input type="checkbox" name="car" id="car" value="car" />
+      <label for="car">CAR</label>
+      <input type="checkbox" name="bus" id="bus" value="bus" />
+      <label for="bus">BUS</label>
+    </form>
+    <br />
+    <hr />
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars">
+      <option value="toyo">Toyota</option>
+      <option value="honda">Honda</option>
+      <option value="ford">Ford</option>
+      <option value="bmw">BMW</option>
+    </select>
+    <br />
+    <hr />
+    <label for="cars">Choose a car:</label>
+    <select name="cars" id="cars" size="3">
+      <option value="toyo">Toyota</option>
+      <option value="honda">Honda</option>
+      <option value="ford">Ford</option>
+      <option value="bmw">BMW</option>
+      <option value="mercedes">Mercedes</option>
+      <option value="jeep">Jeep</option>
+    </select>
+    <br />
+    <hr />
+    <form action="">
+      <label for="username">Username:</label><br />
+      <input
+        type="text"
+        name="username"
+        id="username"
+        placeholder="Enter Your Name"
+      /><br />
+      <label for="pass">Password:</label><br />
+      <input
+        type="password"
+        name="pass"
+        id="pass"
+        placeholder="Enter Password"
+      />
+      <br />
+      <textarea name="area" id="area">
+            Write something here...
+        </textarea
+      >
+      <br />
+      <input type="submit" value="submit" />
+    </form>
+    <button><a href="./testing.html">Click</a></button>
+  </body>
+</html>

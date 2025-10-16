@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      img {
+        width: 100%;
+      }
+      /* body {
+        width: 100%;
+        height: auto;
+        background-color: black;
+        background-image: url("./book2.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+      } */
+      table,
+      th,
+      td {
+        border: 1px solid black;
+        border-collapse: collapse;
+        border-radius: 30px;
+      }
+    </style>
+    <title>HTML Testing</title>
+    <link rel="icon" type="image/x-icon" href="./book1.jpg" />
+  </head>
+  <body>
+    <h1>This is one</h1>
+    <h2>This is two</h2>
+    <h3>This is three</h3>
+    <h4>This is four</h4>
+    <h5>This is five</h5>
+    <h6>This is six</h6>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas id iure
+      aliquid veniam necessitatibus exercitationem impedit consequuntur facilis
+      omnis quam!
+    </p>
+    <hr />
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae, iste.</p>
+    <br />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem, vitae!
+    </p>
+    <pre>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, officia optio ab laborum consequatur atque non accusantium iusto nisi asperiores.
+    </pre>
+    <b>this is bold text</b>
+    <strong>This is important text !</strong>
+    <i>This is Italic text</i>
+    <em>emphasized text</em>
+    <mark>Marked text</mark>
+    <small>Smaller text</small>
+    <p>This is a <del>deleted text</del></p>
+    <p>This is a <ins>Inserted text</ins></p>
+    <p>This is a <sub>subscript text</sub></p>
+    <p>This is a <sup>SUperscript text</sup></p>
+    <!-- links -->
+    <a href="https://www.w3schools.com/" title="w3schools">W3Schools</a>
+    <br />
+    <a href="https://www.w3schools.com" target="_blank" title="w3schools">W3</a>
+    <br />
+    <a href="./book1.jpg" title="book" target="_blank">
+      <img src="./book1.jpg" alt="book" style="width: 300px; height: 300px" />
+    </a>
+    <hr />
+    <!-- img -->
+    <img src="./book2.jpg" alt="book2" width="150px" height="150px" />
+    <hr />
+    <img src="./book3.jpg" alt="book3" style="width: 300px; height: 300px" />
+    <br />
+    <h2>float images</h2>
+    <p>
+      <img
+        src="./book1.jpg"
+        alt="book1"
+        style="float: left; width: 300px; height: 300px"
+      />
+      Float left Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Libero, recusandae?
+    </p>
+
+    <p>
+      <img
+        src="./book2.jpg"
+        alt="book2"
+        style="float: right; width: 300px; height: 300px"
+      />
+      Float right Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+      Tempore, placeat.
+    </p>
+    <br />
+    <div>
+      <p class="img">hi</p>
+    </div>
+    <hr />
+    <div>
+      <h1>Table</h1>
+      <table>
+        <tr>
+          <th>First</th>
+          <th>Second</th>
+          <th>Third</th>
+        </tr>
+        <tr>
+          <td>This is first</td>
+          <td>This is second</td>
+          <td>This is third</td>
+        </tr>
+        <tr>
+          <td>
+            <img
+              src="./book1.jpg"
+              alt="book1"
+              style="width: 100px; height: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="./book2.jpg"
+              alt="book2"
+              style="width: 100px; height: 100px"
+            />
+          </td>
+          <td>
+            <img
+              src="./book3.jpg"
+              alt="book3"
+              style="width: 100px; height: 100px"
+            />
+          </td>
+        </tr>
+      </table>
+    </div>
+    <hr />
+    <div>
+      <ul style="list-style-type: disc">
+        <li>coffee</li>
+        <li>tea</li>
+        <li>matcha</li>
+      </ul>
+      <ol type="I">
+        <li>pizza</li>
+        <li>burger</li>
+        <li>pasta</li>
+      </ol>
+      <dl>
+        <dt>Coffee</dt>
+        <dd>Black coffee</dd>
+        <dt>Tea</dt>
+        <dd>Green tea</dd>
+        <dt>matcha</dt>
+        <dd>matcha latte</dd>
+      </dl>
+    </div>
+    <h1>Iframe</h1>
+    <iframe
+      src=""
+      frameborder="0"
+      name="iframe_a"
+      height="300px"
+      width="100%"
+      title="Iframe example"
+    ></iframe>
+    <a href="https://www.w3schools.com" target="iframe_a" title="w3schools"
+      >W3Schools</a
+    >
+    <p>
+      <a href="https://www.google.com" target="iframe_a" title="google"
+        >google</a
+      >
+    </p>
+    <div>
+      <input type="button" onclick="alert('going')" value="click" />
+      <button onclick=""><a href="./form.html">Click</a></button>
+    </div>
+    <div style="text-align: center; background: black; color: white">
+      <footer>
+        <p>&copy; 2025</p>
+        <p>&yen; 2025</p>
+        <p>&pound; 2001</p>
+        <p>&#128517; 11191</p>
+      </footer>
+    </div>
+  </body>
+</html>
